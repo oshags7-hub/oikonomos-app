@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Expo Dev Server",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["expo", "start", "--clear"],
+      "port": 8081
+    },
+    {
+      "name": "Expo Dev Server (tunnel)",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["expo", "start", "--tunnel", "--clear"],
+      "port": 8081
+    },
+    {
+      "name": "Expo iOS Simulator",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["expo", "start", "--ios"],
+      "port": 8081
+    },
+    {
+      "name": "Expo Web",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["expo", "start", "--web"],
+      "port": 8081
+    }
+  ]
+}
